@@ -5,3 +5,6 @@ List<R> myMap(List<T> list, Function<T, R> f)  {
 }
 
 // El método usa una sintaxis rara new ArrayList<R>() {{ addAll(x); addAll(y); }} para generar una nueva lista que fusione las dos listas en un solo statement.
+
+// Autor(es):
+//   David Alberto Guevara Sánchez
