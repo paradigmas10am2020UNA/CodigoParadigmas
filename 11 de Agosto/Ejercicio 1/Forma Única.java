@@ -3,3 +3,6 @@ int foo(int n) {
 }
 
 // La respuesta es factorial, ya que multiplica todos los valores en un rango y acumula dicha multiplicación.
+
+// Participantes:
+//   Todos.
