@@ -11,7 +11,7 @@ double aproximeE(int n){
                .filter( e -> e.i() > n)
                .map( e -> e.s() )
                .findFirst()
-               .orElse( -1.0 );
+               .get();
 }
 
 /* Autor(es):
