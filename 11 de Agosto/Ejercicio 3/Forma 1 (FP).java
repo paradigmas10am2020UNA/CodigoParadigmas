@@ -14,10 +14,10 @@ Estate update( Estate a ){
 
 double aproximeE(int n){
   return Stream.iterate( new Estate( 0, 0, 1 ), e -> update( e ) )
-               .filter( e -> e.i() > n)
+               .filter( e -> e.i() > n )
                .map( e -> e.s() )
                .findFirst()
-               .orElse(-1.0);
+               .orElse( -1.0 );
 }
 
 /* Autor(es):
