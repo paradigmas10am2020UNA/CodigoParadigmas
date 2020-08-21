@@ -1,8 +1,14 @@
-import com.eif400.collections.ISList;  //Lista Inmutable Implementada por Carlos Loría.
+ //Lista Inmutable Implementada por Carlos Loría.
+import com.eif400.collections.ISList; 
 
-record Estate( int i, double s, double t ){} // POJO
+// POJO 
+// i = numero de iteración
+// s = sumatoria total
+// t = siguiente termino
+record Estate( int i, double s, double t ){} 
 
-Estate update( Estate a ){  // Método que calcula el siguiente estado. 
+// Método que calcula el siguiente estado.
+Estate update( Estate a ){   
    return new Estate( a.i() + 1, a.s() + a.t(), a.t() / ( a.i() + 1 ) );
 }
 
