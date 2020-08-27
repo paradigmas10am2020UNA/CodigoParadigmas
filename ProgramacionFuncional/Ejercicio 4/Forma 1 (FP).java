@@ -9,5 +9,5 @@ return Stream.iterate( ISList.asList( 0 , x ), pair -> ISList.asList( pair.first
 }
 
 /* Autor(es):
-     Javier Amador Delgado
+     Javier Alberto Amador Delgado
 */
