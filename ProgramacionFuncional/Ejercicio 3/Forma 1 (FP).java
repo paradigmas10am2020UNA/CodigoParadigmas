@@ -22,4 +22,5 @@ double aproximeE(int n){
 
 /* Autor(es):
      Kevin Andrés Flores García
+     Javier Alberto Amador Delgado
 */
