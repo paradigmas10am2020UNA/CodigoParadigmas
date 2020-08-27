@@ -2,7 +2,7 @@
 record Estate( int n1, int n2, int i ){
 
     public static Estate initial(int n){
-        return new Estate( 0, 1 , n);
+        return new Estate( 0, 1 , n );
     }
     
     public Estate update(){
