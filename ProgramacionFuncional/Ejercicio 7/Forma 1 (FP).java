@@ -79,7 +79,7 @@ List<Person> genPersons() throws Exception{
 /*Método byProvinceAndGender que devuelve la agrupación de personas según provincia y dentro de estas se agrupan por género. 
 El tipo devuelto es Map< Province, Map< Gender, List< Person > > > */ 
 Map< Province, Map< Gender, List< Person > > > byProvinceAndGender( List<Person> persons ){
-return personas.stream().collect( Collectors.groupingBy(Person::province, Collectors.groupingBy(Person::gender) )); 
+return persons.stream().collect( Collectors.groupingBy(Person::province, Collectors.groupingBy(Person::gender) )); 
 }
 
 
