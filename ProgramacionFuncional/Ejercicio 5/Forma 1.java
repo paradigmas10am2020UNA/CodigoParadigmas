@@ -25,4 +25,5 @@ Integer fibonacci_fp( int n ){
 
 /* Autor(es):
     Kevin Flores Garcia
+    Javier Amador Delgado
 */
