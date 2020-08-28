@@ -7,6 +7,7 @@ Demo para Collectors
 /* 
   Autor(es) de la solucion:
     Kevin Flores Garcia
+    Carlos Gutierrez Chaves 
 */
 
 enum Gender{FEMALE, MALE}
