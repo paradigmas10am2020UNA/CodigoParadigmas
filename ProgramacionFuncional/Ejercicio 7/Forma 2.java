@@ -8,6 +8,7 @@ Demo para Collectors
   Autor(es) de la solucion:
     Kevin Flores Garcia
     Carlos Gutierrez Chaves 
+    Natalia Solano Azofeifa
 */
 
 enum Gender{FEMALE, MALE}
