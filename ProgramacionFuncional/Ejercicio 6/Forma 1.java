@@ -36,6 +36,7 @@ List<Person> genPersons() throws Exception{
     Autor(es) del método:
         Javier Alberto Amador Delgado
         Philippe Gairaud Quesada
+        Kevin Flores Garcia
 
 */
 
