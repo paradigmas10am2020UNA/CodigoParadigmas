@@ -37,6 +37,7 @@ List<Person> genPersons() throws Exception{
         Javier Alberto Amador Delgado
         Philippe Gairaud Quesada
         Kevin Flores Garcia
+        Carlos Gutierrez Chaves
 
 */
 
