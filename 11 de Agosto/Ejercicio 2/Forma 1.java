@@ -8,3 +8,4 @@ List<R> myMap(List<T> list, Function<T, R> f)  {
 
 // Autor(es):
 //   David Alberto Guevara Sánchez
+//   Natalia Solano Azofeifa
