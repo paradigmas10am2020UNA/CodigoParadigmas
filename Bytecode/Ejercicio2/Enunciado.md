@@ -1,18 +1,25 @@
-### Escriba  un método hoo cuyo bytecode compilado sea exactamente el siguiente (eso se le dice reverse engineering)
+### Añada a Foo.java estos métodos y desensamble. Trate de deducir qué hizo el compilador. ¿Por qué la diferencia de instrucción generada?¿Puede explicarlo?
 
-```bytecode
-  public int hoo(int, int);
-    Code:
-       0: iload_1
-       1: istore_3
-       2: iload_3
-       3: ifle          16
-       6: iload_2
-       7: iload_3
-       8: imul
-       9: istore_2
-      10: iinc          3, -1
-      13: goto          2
-      16: iload_2
-      17: ireturn
+```java
+	public String foo(int n){
+		String s = "S0";
+		switch(n){
+			case 10:
+			case 2: s = "S12"; break;
+			case 30, 4, 5: s = "S345"; break;
+			default: s = "Sn";
+		}
+		return s;
+	}
+	
+	public String goo(int n){
+		String s = "S0";
+		switch(n){
+			case 1:
+			case 2: s = "S12"; break;
+			case 3, 4, 5: s = "S345"; break;
+			default: s = "Sn";
+		}
+		return s;
+	}
 ```
