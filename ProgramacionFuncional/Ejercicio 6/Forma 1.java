@@ -31,14 +31,14 @@ List<Person> genPersons() throws Exception{
 }
 /*
     Retorna la diferencia entre la mayor edad y la menor edad de la lista
-    persons según género utlizando Collectors.teeing.
-
+    persons según género utilizando Collectors.teeing.
+    
     Autor(es) del método:
         Javier Alberto Amador Delgado
         Philippe Gairaud Quesada
         Kevin Flores Garcia
         Carlos Gutierrez Chaves
-
+        Luis Villalobos Gonzalez
 */
 
 int ageMargin(List<Person> persons, Gender gender){
