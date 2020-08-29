@@ -8,15 +8,21 @@ record EState(int i, int x, int y){
        public boolean isFinal(){
            return x < y;
        }
-       public List<Integer> listita(){
+       public List<Integer> result(){
            return Arrays.asList(i, x);
        }
    }
-List<Integer> euclid(int x, int y){
- return    Stream.iterate( EState.initial( x, y ), EState::update  )
- .filter( state -> state.isFinal() )
- .findFirst()
-.get()
-.listita();}
 
-//autora: Natalia Solano Azofeifa
+/*
+Autores: 
+       Natalia Solano Azofeifa
+       Luis Villalobos Gonzalez
+*/
+List<Integer> euclid(int x, int y){
+ return Stream.iterate( EState.initial( x, y ), EState::update)
+        .filter( state -> state.isFinal())
+        .findFirst()
+        .get()
+        .result();
+}
+
