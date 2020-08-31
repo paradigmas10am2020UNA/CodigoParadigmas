@@ -16,4 +16,6 @@ public class Main{
     }
 }
 
-//creador: jose barrantes araya
+/*Autor(es): Jose Barrantes Araya
+             Javier Amador Delgado
+*/
