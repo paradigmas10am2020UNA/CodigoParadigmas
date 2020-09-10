@@ -18,4 +18,5 @@ public class Main{
 
 /*Autor(es): Jose Barrantes Araya
              Javier Amador Delgado
+			 David Guevara Sánchez
 */

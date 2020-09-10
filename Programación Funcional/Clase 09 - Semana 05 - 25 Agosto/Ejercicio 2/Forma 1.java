@@ -86,4 +86,5 @@ return persons.stream().collect( Collectors.groupingBy(Person::province, Collect
 
 /* Autor(es):
      Javier Alberto Amador Delgado
+	 David Alberto Guevara Sánchez
 */

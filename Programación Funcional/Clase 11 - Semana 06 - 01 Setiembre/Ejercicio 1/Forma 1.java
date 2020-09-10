@@ -6,5 +6,6 @@ return (x,y) -> f.apply(y,x);
 /* Autor(es):
      Javier Alberto Amador Delgado
      Kevin Flores García
-     Natalia solano Azofeifa
+     Natalia Solano Azofeifa
+	 David Alberto Guevara Sánchez
 */
