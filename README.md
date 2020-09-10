@@ -17,6 +17,8 @@ El repositorio debe seguir una estructura como la siguiente:
             └── Forma 1.java
 ```
 
+Por favor seguir en el número de forma el número que Loría le asignó al ejercicio.
+
 ### Ejemplo
 ```
 .
