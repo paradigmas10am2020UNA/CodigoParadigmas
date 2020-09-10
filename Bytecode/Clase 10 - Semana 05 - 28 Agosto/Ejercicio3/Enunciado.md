@@ -1,4 +1,4 @@
-### Escriba  un método hoo cuyo bytecode compilado sea exactamente el siguiente (eso se le dice reverse engineering)
+### Escriba  un método `hoo` cuyo `bytecode` compilado sea exactamente el siguiente (eso se le dice reverse engineering)
 
 ```bytecode
   public int hoo(int, int);
