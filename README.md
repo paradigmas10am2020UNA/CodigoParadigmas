@@ -27,11 +27,9 @@ Para poder calcular el formato `Clase ## - Semana ## - ## Mes` se puede usar el 
 
 #### Ejemplo
 
-```shell
-​```console
+```console
 foo@bar:~$ py date-string-generator.py -t "2020-09-18"
 Clase 16 - Semana 8 - 18 Setiembre
-​```
 ```
 
 ---
