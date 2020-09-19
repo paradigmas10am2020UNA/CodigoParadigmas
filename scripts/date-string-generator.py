@@ -25,7 +25,7 @@ def calculateString(initial_date, actual_date, weekdays):
     day = actual_date.day
     month = month_parser[str(actual_date.month)]
 
-    return f"Clase {clase:02} - Semana {weeks:02} - {day} {month}"
+    return f"Clase {clase:02} - Semana {weeks:02} - {day:02} {month}"
 
 if __name__ == "__main__":
     parser = ArgumentParser(description=args_data["description"])
