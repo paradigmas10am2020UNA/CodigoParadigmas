@@ -19,7 +19,25 @@ El repositorio debe seguir una estructura como la siguiente:
 
 Por favor seguir en el número de forma el número que Loría le asignó al ejercicio.
 
+---
+
+### Nota
+
+Para poder calcular el formato `Clase ## - Semana ## - ## Mes` se puede usar el script en la carpeta `/scripts` llamado `date-string-generator.py`.
+
+#### Ejemplo
+
+```shell
+​```console
+foo@bar:~$ py date-string-generator.py -t "2020-09-18"
+Clase 16 - Semana 8 - 18 Setiembre
+​```
+```
+
+---
+
 ### Ejemplo
+
 ```
 .
 ├── Bytecode
