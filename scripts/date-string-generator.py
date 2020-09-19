@@ -2,7 +2,7 @@ from datetime import date, timedelta
 from argparse import ArgumentParser
 import json
 
-data = json.load(open(".date-string-generator.json"))
+data = json.load(open(".date-string-generator-data.json"))
 
 weekday_parser = data["weekdays"]
 month_parser = data["months"]
