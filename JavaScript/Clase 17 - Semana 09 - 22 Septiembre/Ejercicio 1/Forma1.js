@@ -8,4 +8,6 @@ function util(f, start, end, frequency){
 /**
  * Autor(es): 
  * - Luis Villalobos
+ * - Natalia Solano
+ * - Joy Bonilla
  */
