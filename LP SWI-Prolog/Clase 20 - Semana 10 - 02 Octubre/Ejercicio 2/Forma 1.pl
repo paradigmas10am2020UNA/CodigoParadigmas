@@ -7,4 +7,5 @@ penultimo([_|R], X) :- penultimo(R, X). % caso recursivo
  * - Joy Bonilla
  * - Natalia Solano
  * - Javier Amador D.
+ * - Kevin Flores G.
  */
