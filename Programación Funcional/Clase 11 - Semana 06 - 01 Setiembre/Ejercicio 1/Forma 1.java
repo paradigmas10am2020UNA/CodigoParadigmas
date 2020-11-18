@@ -7,5 +7,6 @@ return (x,y) -> f.apply(y,x);
      Javier Alberto Amador Delgado
      Kevin Flores García
      Natalia Solano Azofeifa
-	 David Alberto Guevara Sánchez
+     David Alberto Guevara Sánchez
+     Joy Bonilla Fley
 */
