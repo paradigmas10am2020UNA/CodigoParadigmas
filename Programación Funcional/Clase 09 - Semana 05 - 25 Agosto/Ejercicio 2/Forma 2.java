@@ -10,6 +10,7 @@ Demo para Collectors
     Carlos Gutierrez Chaves 
     Natalia Solano Azofeifa
     Luis Villalobos Gonzalez
+    Joy Bonilla Fley
 */
 
 enum Gender{FEMALE, MALE}
