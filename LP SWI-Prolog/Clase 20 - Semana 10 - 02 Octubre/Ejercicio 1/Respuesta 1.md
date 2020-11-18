@@ -4,4 +4,5 @@
 
  * Autor(es): 
  * - Joy Bonilla
+ - Natalia Solano
  
