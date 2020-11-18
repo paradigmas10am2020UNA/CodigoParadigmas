@@ -17,6 +17,7 @@ record EState(int i, int x, int y){
 Autores: 
        Natalia Solano Azofeifa
        Luis Villalobos Gonzalez
+       Joy Bonilla Fley
 */
 List<Integer> euclid(int x, int y){
  return Stream.iterate( EState.initial( x, y ), EState::update)
